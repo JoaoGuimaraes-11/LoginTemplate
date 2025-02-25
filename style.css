@@ -165,7 +165,7 @@ input[type=password]:focus{
     margin-top: 15px;
     gap: 5px;
 }
-@media screen and (min-width:360px) and (max-width:950px){
+@media screen and (min-width:360px) and (max-width:980px){
     .right{
         display: none;
     }
@@ -180,7 +180,7 @@ input[type=password]:focus{
         margin-left: 0;
     }
 }
-@media screen and (max-width:1024px){
+@media screen and (min-width:1024px) and (max-width:1250px){
     .hero-content{
         width: 100%;
     }
