@@ -212,3 +212,19 @@ input[type=email]{
 i.ativo{
     display: none;
 }
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  body {
+    animation: fadeIn 2s ease-out;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
